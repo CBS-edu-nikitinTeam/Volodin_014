@@ -21,6 +21,14 @@ namespace Exercise3
             Year = year;
         }
 
-        public abstract void GetInfo();
+        // Хорошо сделал, но я бы немного оптимизировал.
+        public virtual void GetInfo()
+        {
+            Console.WriteLine($"Ширина:{Latitude}");
+            Console.WriteLine($"Долгота:{Longitude}");
+            Console.WriteLine($"Цена:{Price}");
+            Console.WriteLine($"Скорость:{Speed}");
+            Console.WriteLine($"Год выпуска:{Year}");
+        }
     }
 }

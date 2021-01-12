@@ -18,11 +18,7 @@ namespace Exercise3
             Console.WriteLine("Корабль");
             Console.WriteLine($"Кол-во пассажиров:{Passengers}");
             Console.WriteLine($"Порт приписки:{Port}");
-            Console.WriteLine($"Ширина:{Latitude}");
-            Console.WriteLine($"Долгота:{Longitude}");
-            Console.WriteLine($"Цена:{Price}");
-            Console.WriteLine($"Скорость:{Speed}");
-            Console.WriteLine($"Год выпуска:{Year}");
+            base.GetInfo();
         }
     }
 }

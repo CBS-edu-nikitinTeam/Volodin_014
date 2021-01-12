@@ -12,7 +12,7 @@ namespace Exercise4
             string answer = Console.ReadLine();
             Console.WriteLine("\n");
 
-            IDocumentWorker docWorker = DocumentWorkerFactory.GetInstance(answer);
+            IDocumentWorker docWorker = DocumentWorkerFactory.GetInstance(answer); // Фабричный метод -супер!
 
             if (docWorker == null)
             {
